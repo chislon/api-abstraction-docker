@@ -1,0 +1,7 @@
+web:
+  build: .
+  volumes:
+    - "./myconfig/default.json:/usr/src/app/config/default.json:ro"
+  ports:
+    - "3030:80"
+ 
