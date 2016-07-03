@@ -9,7 +9,7 @@ RUN mkdir -p /usr/src/
 RUN git clone https://github.com/chislon/api-abstraction.git /usr/src/app
 WORKDIR /usr/src/app
 
-RUN npm install
+RUN npm install --production
 
 EXPOSE 80
 
